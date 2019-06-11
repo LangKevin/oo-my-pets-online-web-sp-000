@@ -73,7 +73,7 @@ class Owner
 
   def list_pets
 # expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
-    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length}(s) dog(s), and #{@pets[:cats].length} cat(s)."
+    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
 end
