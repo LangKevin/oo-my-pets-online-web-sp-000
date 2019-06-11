@@ -3,8 +3,8 @@ class Owner
   @@all = []
   @@count = 0
 
-  attr_accessor :name
-  attr_reader :species, :pets
+  attr_accessor :name, :pets
+  attr_reader :species
   def initialize(name)
     @name = name
     @@all << self
