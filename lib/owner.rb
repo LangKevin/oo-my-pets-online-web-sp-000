@@ -61,8 +61,8 @@ class Owner
   end
 
   def self.pets
-    @pets  
-  end  
+    @pets
+  end
 
   def sell_pets
     @pets.each do |type, pets|
