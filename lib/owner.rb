@@ -67,7 +67,7 @@ class Owner
   end
 
   def self.reset_all
-    @@all.clear
+    @@all = []
   end
 
   def list_pets
